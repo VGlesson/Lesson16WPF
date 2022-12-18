@@ -1,0 +1,185 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Бугающие глаза Pepe" Height="450" Width="800">
+    <Canvas>
+        <Path Data="M241.91837,310.7551 L251.62281,333.72459 277.13466,358.21538 328.15663,373.52222 378.15856,374.54307 407.7516,371.48156 457.75336,362.2976 509.796,346.99101 538.36816,324.54134 533.26608,291.88727 521.02074,271.47817 517.9594,259.23241" Height="116.306" Canvas.Left="240.898" Stretch="Fill" Stroke="Black" Canvas.Top="256.174" Width="300.5" Fill="#FF3C9328"/>
+
+        <Path Data="M273.83369,194.49999 C257.83369,72.499986 273.49991,0.83386485 340.16666,138.8333" Fill="#FF3C9328" HorizontalAlignment="Left" Height="160.09" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="169.562" Canvas.Left="445.2" Canvas.Top="118.46">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-32.823"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M50.146355,164.46121 C52.646355,219.96105 100.59434,245.58574 149.59434,224.58569" Fill="#FFF97272" HorizontalAlignment="Left" Height="71.324" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="62.2" RenderTransformOrigin="0,0" Canvas.Left="418.74" Canvas.Top="209.653">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-63.443"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M149.09983,225.08911 C148.59983,170.58871 115.59983,149.58911 49.599831,164.58911" Fill="#FFFB4747" HorizontalAlignment="Left" Height="65.948" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="62.408" RenderTransformOrigin="0,0" Canvas.Left="415.319" Canvas.Top="210.249">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-66.714"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M273.83369,194.49999 C257.83369,72.499986 273.49991,0.83386485 340.16666,138.8333" HorizontalAlignment="Left" Height="165.828" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="180.408" Canvas.Left="241.393" Canvas.Top="162.466" Fill="#FF3C9328" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="12.491"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M134.33181,238.7432 C132.38084,239.65921 124.91682,240.49321 125.24997,255.66008 125.58122,270.74021 139.83204,273.99432 139.83204,273.99432 139.83204,273.99432 146.41593,270.07753 145.83268,256.07708 145.25437,242.19512 134.33181,238.7432 134.33181,238.7432 z" 
+              HorizontalAlignment="Left" 
+              Height="27.58" 
+              Stretch="Fill" 
+              Stroke="Black" 
+              VerticalAlignment="Top" 
+              Width="16.456"
+              Canvas.Top="242"
+              Canvas.Left="447">
+            <Path.Triggers>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Canvas.Top)" Duration="0:0:4" RepeatBehavior="Forever">
+                                <LinearDoubleKeyFrame KeyTime="0%" Value="242"/>
+                                <LinearDoubleKeyFrame KeyTime="30%" Value="240"/>
+                                <LinearDoubleKeyFrame KeyTime="50%" Value="240"/>
+
+                                <LinearDoubleKeyFrame KeyTime="80%" Value="236"/>
+                                <LinearDoubleKeyFrame KeyTime="99%" Value="242"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Canvas.Left)" Duration="0:0:4" RepeatBehavior="Forever">
+                                <LinearDoubleKeyFrame KeyTime="0%" Value="447"/>
+                                <LinearDoubleKeyFrame KeyTime="30%" Value="434"/>
+                                <LinearDoubleKeyFrame KeyTime="50%" Value="447"/>
+
+                                <LinearDoubleKeyFrame KeyTime="80%" Value="461"/>
+                                <LinearDoubleKeyFrame KeyTime="99%" Value="447"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Path.Triggers>
+            <Path.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FF5D5D5D"/>
+                    <GradientStop Color="#FF3B3B3B" Offset="0.255"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M168.38084,164.85279 C170.88084,220.35263 218.60746,245.58609 267.60746,224.58604" Fill="#FFF76363" HorizontalAlignment="Left" Height="47.107" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="73.434" Canvas.Left="301.387" Canvas.Top="232.942" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="23.105"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M267.10631,225.08911 C266.60631,170.58871 233.60631,149.58911 167.60631,164.58911" Fill="#FFF94E4E" HorizontalAlignment="Left" Height="50.573" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="70.85" Canvas.Left="303.114" Canvas.Top="226.628" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="19.146"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M134.33181,238.7432 C132.38084,239.65921 124.91682,240.49321 125.24997,255.66008 125.58122,270.74021 139.83204,273.99432 139.83204,273.99432 139.83204,273.99432 146.41593,270.07753 145.83268,256.07708 145.25437,242.19512 134.33181,238.7432 134.33181,238.7432 z" 
+              HorizontalAlignment="Left" 
+              Height="27.58" 
+              Stretch="Fill" 
+              Stroke="Black" 
+              VerticalAlignment="Top" 
+              Width="16.456" 
+              Canvas.Top="243.049"
+              Canvas.Left="339.018" RenderTransformOrigin="4.383,1.364">
+            <Path.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FF5D5D5D"/>
+                    <GradientStop Color="#FF3B3B3B" Offset="0.255"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+            <Path.Triggers>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Canvas.Top)" Duration="0:0:4" RepeatBehavior="Forever">
+                                <LinearDoubleKeyFrame KeyTime="0%" Value="242"/>
+
+                                <LinearDoubleKeyFrame KeyTime="40%" Value="238"/>
+                                <LinearDoubleKeyFrame KeyTime="50%" Value="238"/>
+
+                                <LinearDoubleKeyFrame KeyTime="80%" Value="240"/>
+                                <LinearDoubleKeyFrame KeyTime="99%" Value="242"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Canvas.Left)" Duration="0:0:4" RepeatBehavior="Forever">
+                                <LinearDoubleKeyFrame KeyTime="0%" Value="343"/>
+
+
+                                <LinearDoubleKeyFrame KeyTime="30%" Value="331"/>
+                                <LinearDoubleKeyFrame KeyTime="50%" Value="343"/>
+
+                                <LinearDoubleKeyFrame KeyTime="80%" Value="354"/>
+                                <LinearDoubleKeyFrame KeyTime="99%" Value="343"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Path.Triggers>
+        </Path>
+        <Path Data="M531.71429,347.4898" Height="1" Canvas.Left="531.714" Stretch="Fill" Stroke="Black" Canvas.Top="347.49" Width="1"/>
+        <Path Data="M299.06122,227.08163" Fill="#FF335B2A" Height="1" Canvas.Left="299.061" Stretch="Fill" Stroke="Black" Canvas.Top="227.082" Width="1"/>
+        <Path Data="M347.02041,224.02041 L327.13307,215.35754 306.72418,215.35754 300.60104,238.82669 296.51933,248.00956 300.60145,255.15241 307.74446,258.21362" Fill="#FF335B2A" Height="43.857" Canvas.Left="296.52" Stretch="Fill" Stroke="Black" Canvas.Top="215.357" Width="51.5"/>
+        <Path Data="M399.06122,228.10204 L409.78593,216.37759 430.19323,209.23402 442.43763,217.39742 450.60036,223.5202 467.94673,232.70436 459.78373,235.76584 C459.78373,235.76584 397.52025,243.90893 399.06122,228.10204 z" Fill="#FF335B2A" Height="29.627" Canvas.Left="399.033" Stretch="Fill" Stroke="Black" Canvas.Top="209.235" Width="69.916"/>
+        <Path Data="M541.91837,283.20408 L515.90856,291.88783 484.27629,298.00984 455.7043,305.15282 408.76553,318.41801 381.21485,327.60202 356.7254,337.80613 357.7463,349.03074 380.19515,348.00994 435.29689,331.68349 483.25582,323.52027 525.09232,308.21423 544.47997,303.11221" Fill="#FFA43B0B" Height="66.827" Canvas.Left="356.724" Stretch="Fill" Stroke="Black" Canvas.Top="283.204" Width="188.756"/>
+        <Path Data="M357.22449,343.40816 L382.23518,335.76548 424.07106,324.54173 472.03039,312.29699 518.96834,302.0931 542.43793,293.92987" Fill="#FFA43B0B" Height="50.479" Canvas.Left="357.224" Stretch="Fill" Stroke="Black" Canvas.Top="293.929" Width="186.215"/>
+
+    </Canvas>
+</Window>
